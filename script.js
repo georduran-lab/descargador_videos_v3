@@ -198,7 +198,7 @@ function showOverlay(){
       });
     } 
 async function obtenerInfo(url) {
-    const response = await fetch("https://miapp.koyeb.app/info", {
+    const response = await fetch("influential-othelia-georduran-61a2b47b.koyeb.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url })
@@ -206,5 +206,6 @@ async function obtenerInfo(url) {
     const data = await response.json();
     console.log(data);
 }
+
 
 
